@@ -12,6 +12,7 @@ body {
   width: 95%;
   gap: 15px;
 }
+
 #title-input,
 #author-input {
   width: 45%;
@@ -20,12 +21,15 @@ body {
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 }
+
 .add-button {
   margin-left: 42.7%;
 }
+
 .remove {
   margin-left: 35%;
 }
+
 .displayTitle {
   display: flex;
   flex-direction: column;
@@ -34,6 +38,7 @@ body {
   width: 30%;
   margin-left: 35%;
 }
+
 .books-container {
   display: flex;
   flex-direction: column;
