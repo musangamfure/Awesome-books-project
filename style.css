@@ -1,48 +1,67 @@
 body {
+  margin: 0;
+  width: 100vw;
+}
+
+.mainContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100vw;
 }
 
-.display {
+#display {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 95%;
+  width: 80%;
   gap: 15px;
 }
 
-#title-input,
-#author-input {
+.centerItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 45%;
+}
+
+#titleInput,
+#authorInput {
+  width: 95%;
   height: 30px;
   border: 1.8px solid gray;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 }
 
-.add-button {
-  margin-left: 42.7%;
+#addButton {
+  margin-left: 80.7%;
 }
 
 .remove {
   margin-left: 35%;
 }
 
-.displayTitle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
-  margin-left: 35%;
+ul,
+li {
+  list-style: none;
 }
 
-.books-container {
+.displayFlex {
   display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-content: center;
-  width: 90%;
+  width: 96%;
+  justify-content: space-between;
+  padding: 2%;
+  margin: 0%;
+}
+
+.backgroundColor {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
