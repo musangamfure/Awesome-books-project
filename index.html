@@ -4,18 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Awesome books</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Awesome Books</title>
   </head>
-
-  <body class="body">
-    <h1>Awesome Books</h1>
-    <div class="books-container"></div>
-    <div class="display">
-      <input type="text" placeholder="Title" id="title-input" />
-      <input type="text" placeholder="Author" id="author-input" />
-      <button class="add-button" type="button">Add</button>
-    </div>
+  <body>
+    <main>
+      <div class="mainContainer">
+        <h1>Our Awesome Books</h1>
+        <div id="display"></div>
+        <form class="centerItems">
+          <h2>Add a New book</h2>
+          <input
+            type="text"
+            id="titleInput"
+            placeholder="Please Enter Title"
+          /><br /><br />
+          <input
+            type="text"
+            id="authorInput"
+            placeholder="Please Enter Author"
+          /><br /><br />
+          <button type="submit" id="addButton">Add</button>
+        </form>
+      </div>
+    </main>
     <script src="./app.js"></script>
   </body>
 </html>
