@@ -29,12 +29,14 @@ header {
   background: #eee8e8;
   box-shadow: 0 2px 10px rgba(82, 80, 80, 0.384);
 }
-.time{
-  margin-top:16vh;
-  height:20%;
+
+.time {
+  margin-top: 16vh;
+  height: 20%;
   z-index: 2;
   margin-left: 70%;
 }
+
 header a.logo {
   display: flex;
   justify-content: space-around;
