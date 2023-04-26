@@ -1,33 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Awesome Books</title>
-  </head>
-  <body>
-    <main>
-      <div class="mainContainer">
-        <h1>Our Awesome Books</h1>
-        <div id="display"></div>
-        <form class="centerItems">
-          <h2>Add a New book</h2>
-          <input
-            type="text"
-            id="titleInput"
-            placeholder="Please Enter Title"
-          /><br /><br />
-          <input
-            type="text"
-            id="authorInput"
-            placeholder="Please Enter Author"
-          /><br /><br />
-          <button type="submit" id="addButton">Add</button>
-        </form>
-      </div>
-    </main>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome books</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+
+<body class="body">
+    <header>
+        <nav class="navBar">
+          <a href="index.htm" class="logo">
+            <i class="fa-solid fa-book"></i>
+            <span
+              >Awesome <br />
+              Books</span
+            >
+          </a>
+            <ul class="nav-ul">
+                <li><a class="navLink" href="#bookList">List</a></li>
+                <li><a class="navLink" href="#addBook">Add book</a></li>
+                <li><a class="navLink" href="#contact-info">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="bookList" class="section">
+        <h1>Awesome Books</h1>
+        <div class="bookDisplay"></div>
+    </section>
+    <section id="addBook" class="section">
+        <div class="inputs">
+            <hr>
+            <h1>Add new book</h1>
+            <input type="text" placeholder="title" id="titleInput">
+            <input type="text" placeholder="Author" id="authorInput">
+            <button class="addBtn" type="button">Add</button>
+        </div>
+    </section>
+    <section id="contact-info" class="section">
+        <h2>Contact Information</h2>
+        <p>Do you have any questions? or you just want to say "Hello" You can reach us out at:</p>
+        <ul class="contact-ul">
+            <li>Email : mcjthiongo@gmail.com@gmail.com</li>
+            <li>Phone no: +254716128101</li>
+            <li>Location: Nairobi, Kenya</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy;Awesomebooks</p>
+    </footer>
     <script src="./app.js"></script>
-  </body>
+</body>
+
 </html>
